@@ -1,0 +1,31 @@
+name: pg_status_monitor
+description: "Postgres Status Monitor - A desktop application to monitor PostgreSQL database status"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.5.0
+  launch_at_startup: ^0.5.1
+  postgres: ^3.5.9
+  shared_preferences: ^2.5.3
+  tray_manager: ^0.5.1
+  url_launcher: ^6.3.2
+  url_launcher_linux: ^3.2.1
+  window_manager: ^0.5.1
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
