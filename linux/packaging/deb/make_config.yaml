@@ -32,3 +32,7 @@ categories:
   - Dashboard
 
 startup_notify: true
+
+files:
+  build/lib/libapp.so: usr/lib/postgresql-status-monitor/lib/
+  build/linux/x64/release/bundle/lib/: usr/lib/postgresql-status-monitor/
